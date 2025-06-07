@@ -15,8 +15,8 @@ A real-time chat application designed specifically for language learners to prac
 
 ## Screenshots
 
-![Chat Interface](frontend/src/assets/chat-interface.png)
-![User Profile](frontend/src/assets/user-profile.png)
+![Chat Interface](https://github.com/yasin-erkan/ChatNest-Merstack-Project/blob/main/Chat.png)
+![User Profile](https://github.com/yasin-erkan/ChatNest-Merstack-Project/blob/main/chat1.png)
 
 ## Tech Stack
 
