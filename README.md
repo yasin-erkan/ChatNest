@@ -72,27 +72,9 @@ VITE_STREAM_API_KEY=your_stream_api_key
 ```bash
 # Start backend
 cd backend
-npm run dev
+node server.js
 
 # Start frontend
 cd frontend
 npm run dev
 ```
-
-## Deployment
-
-The application is deployed on Vercel:
-- Frontend: [https://chatnest.vercel.app](https://chatnest.vercel.app)
-- Backend: [https://chatnest-api.vercel.app](https://chatnest-api.vercel.app)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-
-
-Project Link: [https://github.com/yasin-erkan/ChatNest](https://github.com/yasin-erkan/ChatNest)
