@@ -1,56 +1,49 @@
-# ChatNest 🚀
+# ChatNest - Language Learning Chat Application
 
-A modern, real-time chat application with video calling capabilities, built with the MERN stack.
+A real-time chat application designed specifically for language learners to practice their target languages with native speakers.
 
-![ChatNest Preview](https://github.com/yasin-erkan/ChatNest/blob/main/ChatNest.gif)
+![ChatNest Demo](ChatNest.gif)
 
-## ✨ Features
+## Features
 
-- 💬 Real-time messaging using Stream Chat
-- 📹 Video calling functionality
-- 🔐 Secure authentication
-- 👥 User profiles and friend system
-- 🌙 Dark/Light mode support
-- 📱 Responsive design
-- 🔍 User search and discovery
-- 🤝 Friend request system
+- **Real-time Chat**: Instant messaging with WebSocket support
+- **Language Learning Focus**: Connect with native speakers of your target language
+- **User Profiles**: Showcase your language proficiency levels
+- **Friend System**: Add and manage language learning partners
+- **Modern UI**: Built with React, Tailwind CSS, and DaisyUI
+- **Responsive Design**: Works on desktop and mobile devices
 
-## 🛠️ Tech Stack
+## Screenshots
+
+![Chat Interface](frontend/src/assets/chat-interface.png)
+![User Profile](frontend/src/assets/user-profile.png)
+
+## Tech Stack
 
 ### Frontend
-- React.js
+- React 18
+- Vite
 - Tailwind CSS
-- Stream Chat React SDK
+- DaisyUI
 - React Query
-- React Router
-- Axios
+- Zustand
+- Stream Chat SDK
 
 ### Backend
 - Node.js
-- Express.js
+- Express
 - MongoDB
+- Socket.IO
 - JWT Authentication
-- Stream Chat API
-- Socket.io
 
-## 🚀 Getting Started
+## Getting Started
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- MongoDB
-- Stream Chat account
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
+1. Clone the repository:
 ```bash
-git clone https://github.com/yasin-erkan/ChatNest
-cd ChatNest
+git clone https://github.com/yasin-erkan/ChatNest.git
 ```
 
-2. Install dependencies
+2. Install dependencies:
 ```bash
 # Install backend dependencies
 cd backend
@@ -61,69 +54,45 @@ cd ../frontend
 npm install
 ```
 
-3. Set up environment variables
-
-Create `.env` files in both frontend and backend directories:
-
-Backend `.env`:
-```env
+3. Set up environment variables:
+```bash
+# Backend (.env)
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 STREAM_API_KEY=your_stream_api_key
 STREAM_API_SECRET=your_stream_api_secret
-```
 
-Frontend `.env`:
-```env
-VITE_API_URL=http://localhost:5000/api
+# Frontend (.env)
+VITE_API_URL=http://localhost:5000
 VITE_STREAM_API_KEY=your_stream_api_key
 ```
 
-4. Start the development servers
-
+4. Start the development servers:
 ```bash
-# Start backend server
+# Start backend
 cd backend
 npm run dev
 
-# Start frontend server
+# Start frontend
 cd frontend
 npm run dev
 ```
 
-## 📝 API Documentation
+## Deployment
 
-### Authentication
-- `POST /api/auth/signup` - Register new user
-- `POST /api/auth/login` - Login user
-- `POST /api/auth/logout` - Logout user
-- `GET /api/auth/me` - Get current user
+The application is deployed on Vercel:
+- Frontend: [https://chatnest.vercel.app](https://chatnest.vercel.app)
+- Backend: [https://chatnest-api.vercel.app](https://chatnest-api.vercel.app)
 
-### Chat
-- `GET /api/chat/token` - Get Stream chat token
-- `POST /api/chat/user` - Create Stream user
-- `GET /api/chat/user/:userId` - Get user details
+## Contributing
 
-### Users
-- `GET /api/users` - Get recommended users
-- `GET /api/users/friends` - Get user's friends
-- `POST /api/users/friend-request/:userId` - Send friend request
-- `GET /api/users/friend-requests` - Get friend requests
-- `PUT /api/users/friend-request/:requestId/accept` - Accept friend request
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 🙏 Acknowledgments
 
-- [Stream Chat](https://getstream.io/chat/) for the chat functionality
-- [Tailwind CSS](https://tailwindcss.com/) for the styling
-- [React Query](https://tanstack.com/query) for data fetching
+
+Project Link: [https://github.com/yasin-erkan/ChatNest](https://github.com/yasin-erkan/ChatNest)
