@@ -2,7 +2,7 @@
 
 A modern, real-time chat application with video calling capabilities, built with the MERN stack.
 
-![ChatNest Preview](https://i.imgur.com/your-preview-image.png)
+![ChatNest Preview](https://github.com/yasin-erkan/ChatNest/blob/main/ChatNest.gif)
 
 ## ✨ Features
 
@@ -121,14 +121,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- Your Name - [@yourusername](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
