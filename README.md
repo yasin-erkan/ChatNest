@@ -64,7 +64,7 @@ STREAM_API_KEY=your_stream_api_key
 STREAM_API_SECRET=your_stream_api_secret
 
 # Frontend (.env)
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=https://chatnest-api.vercel.app
 VITE_STREAM_API_KEY=your_stream_api_key
 ```
 
